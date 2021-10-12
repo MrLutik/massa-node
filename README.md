@@ -1,7 +1,7 @@
 ### massa-node
 Config file and a little instruction on building and deploying container with massa-node
 
-To put your node in container you should clone the source into your host machine
+To put your node in container you should clone the source code into your host machine
 ```
 git clone https://github.com/MrLutik/massa-node.git
 ```
