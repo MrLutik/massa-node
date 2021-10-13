@@ -23,5 +23,6 @@ docker build --tag massa-node .
 ```
 Start the container from the created image
 ```
-docker run -d --rm --network host --name massa-node -v "path_to_your_keys:/massa/massa-node/config" massa-node
+docker run -d --restart unless-stopped --network host --name massa-node -v "path_to_keys:/massa/massa-node/config" massa-node
+
 ```
