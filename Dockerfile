@@ -8,7 +8,7 @@ ENV LC_ALL=en_US.utf8
 ENV LANG=en_US.utf8
 ENV TZ=Europe/Kiev
 
-EXPOSE 31244 33033 33034 33035
+EXPOSE 31244 31245 33033 33034 33035
 
 RUN bin/sh -c set -xe \
     && echo '#!/bin/sh' > /usr/sbin/policy-rc.d \ 
