@@ -11,7 +11,7 @@ cd massa-node
 ```
 Give correct permission to docker installation script
 ```
-chmod +x docker-install.sh
+chmod +x docker_install.sh
 ```
 Start the script
 ```
