@@ -15,7 +15,7 @@ chmod +x docker_install.sh
 ```
 Start the script
 ```
-./docker-install.sh
+./docker_install.sh
 ```
 Build an image 
 ```
